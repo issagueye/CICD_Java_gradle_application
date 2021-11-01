@@ -6,6 +6,7 @@ pipeline{
                 docker {
                     image 'openjdk:11'
                 }
+            }
             steps{
                 echo "========executing Sonar Quality Check========"
                 script {
